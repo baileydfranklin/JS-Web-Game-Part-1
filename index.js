@@ -23,6 +23,57 @@ function newImage(src, left, bottom){
     newImage.style.bottom = bottom + "px"
     document.body.append(newImage)
 }
+/////////////////////////////////////     SKY     //////////////////////////
+newImage('assets/sky.png',0,500)
+newImage('assets/sky.png',100,500)
+newImage('assets/sky.png',200,500)
+newImage('assets/sky.png',300,500)
+newImage('assets/sky.png',400,500)
+newImage('assets/sky.png',500,500)
+newImage('assets/sky.png',600,500)
+newImage('assets/sky.png',700,500)
+newImage('assets/sky.png',800,500)
+
+newImage('assets/sky.png',0,600)
+newImage('assets/sky.png',100,600)
+newImage('assets/sky.png',200,600)
+newImage('assets/sky.png',300,600)
+newImage('assets/sky.png',400,600)
+newImage('assets/sky.png',500,600)
+newImage('assets/sky.png',600,600)
+newImage('assets/sky.png',700,600)
+newImage('assets/sky.png',800,600)
+
+newImage('assets/sky.png',0,700)
+newImage('assets/sky.png',100,700)
+newImage('assets/sky.png',200,700)
+newImage('assets/sky.png',300,700)
+newImage('assets/sky.png',400,700)
+newImage('assets/sky.png',500,700)
+newImage('assets/sky.png',600,700)
+newImage('assets/sky.png',700,700)
+newImage('assets/sky.png',800,700)
+
+newImage('assets/sky.png',0,800)
+newImage('assets/sky.png',100,800)
+newImage('assets/sky.png',200,800)
+newImage('assets/sky.png',300,800)
+newImage('assets/sky.png',400,800)
+newImage('assets/sky.png',500,800)
+newImage('assets/sky.png',600,800)
+newImage('assets/sky.png',700,800)
+newImage('assets/sky.png',800,800)
+
+newImage('assets/sky.png',0,900)
+newImage('assets/sky.png',100,900)
+newImage('assets/sky.png',200,900)
+newImage('assets/sky.png',300,900)
+newImage('assets/sky.png',400,900)
+newImage('assets/sky.png',500,900)
+newImage('assets/sky.png',600,900)
+newImage('assets/sky.png',700,900)
+newImage('assets/sky.png',800,900)
+/////////////////////////////////////     SKY     //////////////////////////
 /////////////////////////////////////     GRASS     //////////////////////////
 newImage('assets/grass.png',0,0)
 newImage('assets/grass.png',100,0)
@@ -75,13 +126,13 @@ newImage('assets/grass.png',700,400)
 newImage('assets/grass.png',800,400)
 /////////////////////////////////////     GRASS     //////////////////////////
 
-newImage('assets/green-character.gif',100,0)
-newImage('assets/pine-tree.png',400,0)
-newImage('assets/boulder.png', 200, 0)
-newImage('assets/pillar.png', 250, 0)
-newImage('assets/rock.png', 300, 0)
-newImage('assets/tree.png', 500, 0)
-newImage('assets/well.png',550, 0)
+newImage('assets/green-character.gif',100,50)
+newImage('assets/pine-tree.png', 100, 100)
+newImage('assets/boulder.png', 0, 400)
+newImage('assets/pillar.png', 700, -30)
+newImage('assets/rock.png', 500, 300)
+newImage('assets/tree.png', 600, 400)
+newImage('assets/well.png', 350, 200)
 
 /*let sword = document.createElement('img')
 sword.src = 'assets/sword.png'
@@ -107,6 +158,6 @@ function newItem(src, left, bottom){
     })
 }
 
-newItem('assets/sword.png', 500, 405)
-newItem('assets/shield.png', 165, 185)
-newItem('assets/staff.png',600,100)
+newItem('assets/sword.png', 150, 435)
+newItem('assets/shield.png', 320, 220)
+newItem('assets/staff.png',710,20)
